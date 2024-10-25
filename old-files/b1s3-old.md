@@ -1,0 +1,83 @@
+# Taller Individual  2
+## Higher Order Funtions
+
+**Semana**: 3
+
+**Objetivos**:
+
+- Aplicar los conocimientos sobre funciones de orden superior.
+- Enviar una función como parámetro.
+
+### Descripción:
+
+**Antes de iniciar no olvide que toda función que defina debe tener especificado el tipo que ha devolver, así como también los valores (*val*) que serán utilizados, a excepción de los valores a los que se le asigna una función sin nombre.**
+
+1. Implemente en Scala lo siguiente:
+
+- La expresión: $$\sum_{k = 1}^{10}k$$
+- Defina la función: $$f(n) = \left ( \sum_{k = 1}^{n}k\right )n^{n-1}-1$$
+- Mapee la siguiente: $$n \rightarrow \left ( \sum_{k = 1}^{n}k\right )^2-2n$$
+
+
+2. Una vez que implemente la función isPrime, definida así:
+
+```math
+isPrime(n) = \forall k \in [2, n - 1] . (n\%k) \neq 0
+```
+
+ - Trate de usar el "__" (guión bajo) para reemplazar alguna de las variables que se encuentran en la expresión: <code>k => n % k != 0</code>
+ - Defina una función que reemplace a la función sin nombre: <code>k => n % k != 0</code>
+
+
+3. Usted ha sido contratado en una escuela para realizar algunos reportes que pueden incluir información de los estudiantes o del representante o de ambos. La información se ha estructurado de la siguiente manera:
+
+Estudiante:
+
+&nbsp;&nbsp;&nbsp;apellido
+
+&nbsp;&nbsp;&nbsp;nombre
+
+&nbsp;&nbsp;&nbsp;estatura
+
+&nbsp;&nbsp;&nbsp;edad
+
+&nbsp;&nbsp;&nbsp;Representante:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nombre
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;edad
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;genero
+
+Un ejemplo de los datos es la siguiente lista:
+```Scala
+List(
+Estudiante("Vargas", "Ricardo", 1.2, 6, Representante("María", 18, 'F')),
+Estudiante("Loayza", "Leonor", 1.3, 7, Representante("Marco", 45, 'M')),
+Estudiante("Espinoza", "Alexandra", 1.4, 6, Representante("Miguel", 33, 'M')),
+Estudiante("Solano", "Juan", 1.35, 8, Representante("Mirta", 51, 'F')),
+Estudiante("Pelaez", "Anahí", 1.38, 7, Representante("Manuel", 23, 'M')),
+)
+```
+
+1. Cree las estructra de clases (case) para representar la estructra de los datos.
+2. Asigne la lista anterior a un valor (val), pero, debe especificar el tipo de dato de ese valor.
+3. Defina una función que permite obtener el estudiante con mayor edad.
+4. Cree una función sin nombre que permite obtener el representante del alumno de menor edad. Utilice *minBy*
+5. Defina una función que permite obtener el estudiante que tiene al representante de mayor edad.
+6. Cree una función sin nombre que permita obtener el estudiante que tiene al representante de menor edad.
+7. Defina una función que responda a la pregunta ¿Todos los estudiantes tiene un represenante cuyo nombre inicia con M? 
+8. Cree una función sin nombre que permita ordenar (use: *sortBy*) la lista de estudiantes por el apellido de estos.
+9. Defina una función que permita ordenar (sortBy) la lista de estudiantes por la edad del representante.
+10. Cree una función sin nombre que ordene la lista de estudiantes por el nombre del representante
+
+### Calificación:
+
+Para la calificación, se debe presentar el trabajo realizado a su tutor y posteriormente cargarlo en: https://classroom.github.com/a/0_Voys01. Es necesario recalcar que la presentación se hace una única vez, no existe la posibilidad de presentaciones adicionales con correcciones. 
+
+Tal como se le explicó anteriormente, los talleres se calificarán de la siguiente manera:
+
+- 10 puntos si presenta en el horario de prácticas y experimentación.
+- 7 puntos presenta en el horario de tutoría
+
+La hora máxima de presentación será las 20h30
