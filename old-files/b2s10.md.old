@@ -1,0 +1,47 @@
+# Taller Individual  2
+## Tuplas y funciones
+
+**Semana**: 10
+
+**Objetivos**:
+
+- Utilizar tuplas para representar datos
+- Emplear funciones como filter, map, reduce, foldLeft y flatMap.
+
+### Descripción:
+
+Imagina que tienes una lista de tuplas representando datos de ventas de una tienda. Cada tupla contiene el nombre del producto, la cantidad vendida y el precio por unidad.
+
+|Producto|Unidades vendidas|Precio unitario|
+|--------|-----------------|---------------|
+|Zapatos |10|50|
+|Camisas |20|30|
+|Pantalones|15|40|
+|Gorras|18|15|
+|Calcetines|50|5|
+
+Tareas:
+
+1. **Filtrar Productos Caros**: Usa *filter* para encontrar productos cuyo precio por unidad sea mayor a 35.0.
+2. **Calcular Ventas Totales**: Utiliza *map* para transformar la lista en una lista de ingresos por producto (cantidad vendida * precio por unidad).
+3. **Lista Detallada de Precios**: Emplea *flatMap* para crear una lista detallada de precios, repitiendo el precio de cada producto tantas veces como unidades se vendieron. Para resolver esta tarea busque información sobre la función *fill*. Ejemplo: <code>List.fill(4)(3)</code>
+4. **Ingresos Totales**: Usa *foldLeft* para calcular el ingreso total de todas las ventas.
+5. **Precio Promedio**: Aplica *reduce* para calcular el precio promedio de los productos.
+
+Resultados Esperados:
+
+1. Lista filtrada de productos caros.
+2. Lista de ingresos por producto.
+3. Lista detallada de precios.
+4. Ingreso total de todas las ventas.
+5. Precio promedio de los productos.
+
+### Calificación:
+
+Para la calificación, se debe presentar el trabajo realizado a su tutor.
+
+Para este taller se aplicará lo siguiente
+
+- 10 puntos si presenta en el horario de prácticas y experimentación.
+- 7 puntos, si presenta en grupos de 2 personas en el horario de tutoría.
+- 5 puntos, si presenta en grupos de 3 personas en el horario de tutoria.
