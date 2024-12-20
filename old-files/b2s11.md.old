@@ -1,0 +1,73 @@
+# Taller grupal   2
+## Programación funcional y reactiva
+
+**Semana**: 11
+
+**Objetivos**:
+
+- Aplicar los conceptos básicos de la estructura Map.
+- Crear programas que utilicen Map para responder a preguntas sencillas.
+
+Usted deben formar grupos de 4 personas. Si va a utilizar IA (Char GPT o Claude), recuerde proporcionar el contexto adecuado, lenguaje de programación y versión. Sobretodo, pedir las explicaciones necesarias a cada porción de código que se muestre.
+
+### Descripción:
+
+El código que se pidió implementar devuelve una estructura de datos denominada Map, su trabajo grupal consiste en aprender el funcionamiento de esa estructura de datos. Entre los conceptos que debe tener claros están:
+
+- Cómo declarar un Map.
+- Cómo inicializar dicha estructura de datos.
+- Cómo recorrer un Map.
+
+Todos los puntos anteriores deben ser explicados de forma práctica utilizando código.
+
+Una vez que ya tiene un conocimiento básico del funcionamiento de los mapas. Es momento de tratar de realizar unas implementaciones, así:
+
+La primera, dada la siguiente lista de números: <code>List(1, 2, 3, 2, 1, 1, 4, 3, 2, 1, 4, 1, 3, 2)</code>, implemente un programa funcional en Scala que permita encontrar cuál o cuáles es el número que más veces que se repite. Recuerde que su implementación debe utilizar groupBy y funciones relacionadas con Map.
+
+En esta última tarea tratarán de hacer lo siguiente: dada la siguiente lista con sus nombres, trate de crear un programa funcional en Scala que permita determinar ¿cuál es la letra inicial que más veces se repite?
+
+El listado de nombres es el siguiente:
+
+```Scala
+val names: List[String] = List(
+  "JEAN",
+  "DIANA",
+  "NAHOMI",
+  "JONATHAN",
+  "MARIO",
+  "JOSE",
+  "RUBEN",
+  "STEVEEN",
+  "CRISTIAN",
+  "CRISTINA",
+  "ERICK",
+  "RUBEN",
+  "CRISTIAN",
+  "ITALO",
+  "CARLOS",
+  "VERONICA",
+  "RAUL",
+  "RICHARD",
+  "HUGO",
+  "ALEX",
+  "DIEGO",
+  "BYRON",
+  "ROBERTO",
+  "MARIA",
+  "ALEX",
+  "ROBERTO",
+  "JOSE",
+  "VICENTE",
+  "CAMILO"
+)
+```
+
+### Calificación:
+
+Para la calificación, se debe presentar el trabajo realizado a su tutor.
+
+Tal como se le explicó anteriormente, los talleres se calificarán de la siguiente manera:
+
+- 10 puntos si presenta en el horario de prácticas y experimentación.
+- 7 puntos presenta en el horario de tutoría
+- 0 para quienes no presentan.
